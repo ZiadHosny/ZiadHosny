@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi there 👋                                           ![coder](https://user-images.githubusercontent.com/42099033/164327909-2a86f59b-a351-487a-bcca-f8b384816549.gif)
 
 <!--
 **ZiadHosny/ZiadHosny** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
