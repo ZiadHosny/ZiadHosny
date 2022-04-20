@@ -1,4 +1,4 @@
-<h1> <img alt="GIF" src="coder.gif" width=300px height=200px align="right">
+<h1> <img alt="GIF" src="Developer.gif" width=300px height=200px align="right">
 
 <p align="center" >Hello, 👋 I'm Ziad Hosny <img src="coder.gif" width=70px></h1>
 
