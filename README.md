@@ -1,8 +1,8 @@
 <h1> <img alt="GIF" src="Gifs/coder.gif" width=300px height=200px align="right">
 
-<p align="center" >Hello, 👋 I'm Samarpan Dasgupta <img src="coder.gif" width=70px></h1>
+<p align="center" >Hello, 👋 I'm Ziad Hosny <img src="coder.gif" width=70px></h1>
 
-<h3 align="center"><i>A Passionate Developer from India</i></h3></br></br>
+<h3 align="center"><i>A Software Engineer in Egypt</i></h3></br></br>
 
 
 
