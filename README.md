@@ -13,15 +13,6 @@
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=ZiadHosny&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4)
 
+---
+
 [![](https://visitcount.itsvg.in/api?id=ZiadHosny&icon=0&color=0)](https://visitcount.itsvg.in)
-
-<!--
-
-![](https://komarev.com/ghpvc/?username=JoHoop)
-[![Website johoop.vercel.app](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://johoop.vercel.app)
-
-
-**ZiadHosny/ZiadHosny** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
