@@ -1,6 +1,6 @@
 <h1> <img alt="GIF" src="coder.gif" width=300px height=200px align="right">
 
-<p align="center" >Hey 👋, I'm Ziad!<img src="Developer.gif" width=70px></h1>
+<p align="center" >Hey 👋, I'm Ziad Honsy!<img src="Developer.gif" width=70px></h1>
 
 <h3 align="center"><i>A Software Engineer in Egypt</i></h3></br></br>
 
