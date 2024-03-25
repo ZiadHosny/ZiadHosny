@@ -1,6 +1,8 @@
 <h2 align="left">Hi 👋! I'm Ziad Hosny! <img src="Developer.gif" width=70px></h2>
 
 ###
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&random=false&width=435&lines=Software+Engineer;Fullstack+Developer;React+Developer;Nodejs+Developer" alt="Typing SVG" /></a>
+###
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ZiadHosny&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
