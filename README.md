@@ -7,7 +7,13 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ZiadHosny&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
 </div>
 
-###
+### Current Status Quo:
+
+- 🌱 I’m currently learning <strong>PyTorch</strong> and <strong>Aws</strong>
+- 🤔 My research interests are with <strong>Blockchain Systems, Natural Language Processing</strong>, etc
+- 🔍 I’m looking for career opportunities in the <strong>Software</strong> industry
+- 💬 Feel free to discuss with me about <strong>Privacy Engineering, Programming</strong>
+- 👀 See my [Personal Portfolio](https://ziadhosny.vercel.app) to get more info
 
 <img align="right" height="150" src="coder.gif"  />
 
