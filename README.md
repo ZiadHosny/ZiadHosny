@@ -100,9 +100,3 @@
 <div align="center">
   <img src="https://profile-counter.glitch.me/ZiadHosny/count.svg?"  />
 </div>
-
-###
-
-<img src="https://raw.githubusercontent.com/ZiadHosny/ZiadHosny/output/snake.svg" alt="Snake animation" />
-
-###
