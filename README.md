@@ -1,4 +1,4 @@
-<h2 align="left">Hi 👋! I'm Ziad Hosny! <img src="Developer.gif" width=70px/></h2>
+<h2 align="left">Hi 👋! I'm Ziad Hosny! <img src="Developer.gif" width=70px></h2>
 
 ###
 
