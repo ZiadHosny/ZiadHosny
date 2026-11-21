@@ -13,11 +13,11 @@
   <a href="mailto:ziadhosny007@gmail.com"><img src="assets/buttons/email.svg" width="200" alt="Email" /></a>
 </p>
 
-<p align="center">
+<h3 align="center">
   I'm Ziad Hosny, a Full-Stack Software Engineer based in Egypt with 5+ years of experience.<br />
   I build scalable backends with Node.js, NestJS, and PostgreSQL, and modern frontends with React, Next.js, and TypeScript.<br />
   I also make Arabic content about software engineering.
-</p>
+</h3>
 
 <p align="center">
   <img src="assets/titles/watch.svg" alt="Watch" /><br />
