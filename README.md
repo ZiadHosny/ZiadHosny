@@ -21,8 +21,7 @@
 <h3 align="center">Watch</h3>
 
 <p align="center">
-  <a href="https://www.youtube.com/playlist?list=PLXff1uLxiPdA"><img src="assets/badges/system-design-in-arabic.svg" height="36" alt="System Design in Arabic playlist" /></a><br />
-  <sub>System Design series in Arabic</sub>
+  <a href="https://www.youtube.com/playlist?list=PLXff1uLxiPdA"><img src="assets/badges/system-design-in-arabic.svg" height="36" alt="System Design in Arabic playlist" /></a>
 </p>
 
 <h3 align="center">Featured Projects</h3>
