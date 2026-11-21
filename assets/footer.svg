@@ -1,49 +1,47 @@
-
-      <svg
-        width="854"
-        height="100"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-        style="z-index:1;position:relative"
-        viewBox="0 0 854 100"
-      >
-        <style>
-      .text {   font-size: 70px;   font-weight: 700;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } .desc {   font-size: 20px;   font-weight: 500;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } path {   transform: rotate(180deg);   transform-origin: 50% 50%;  } 
-      .text, .desc {   animation: fadeIn 1.2s ease-in-out forwards;  } @keyframes fadeIn {   from {     opacity: 0;   }   to {     opacity: 1;   }  } 
-    </style>
-        <defs>
-              <linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
-                <stop offset="0%" stop-color="#0b0d13"/><stop offset="50%" stop-color="#141626"/><stop offset="100%" stop-color="#1f2240"/>
-              </linearGradient>
-            </defs>
-        
-      <g transform="translate(427, 50) scale(1, 1) translate(-427, -50)">
-        <path d="" fill="url(#linear)" opacity="0.4" >
-          <animate
-              attributeName="d"
-              dur="20s"
-              repeatCount="indefinite"
-              keyTimes="0;0.333;0.667;1"
-              calcmod="spline"
-              keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
-              begin="0s"
-              values="M0 0L 0 20Q 213.5 60 427 30T 854 55L 854 0 Z;M0 0L 0 45Q 213.5 60 427 40T 854 30L 854 0 Z;M0 0L 0 65Q 213.5 35 427 65T 854 30L 854 0 Z;M0 0L 0 20Q 213.5 60 427 30T 854 55L 854 0 Z">
-          </animate>
-        </path>
-        <path d="" fill="url(#linear)" opacity="0.4" >
-          <animate
-            attributeName="d"
-            dur="20s"
-            repeatCount="indefinite"
-            keyTimes="0;0.333;0.667;1"
-            calcmod="spline"
-            keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
-            begin="-10s"
-            values="M0 0L 0 35Q 213.5 80 427 50T 854 60L 854 0 Z;M0 0L 0 50Q 213.5 20 427 20T 854 40L 854 0 Z;M0 0L 0 45Q 213.5 25 427 50T 854 65L 854 0 Z;M0 0L 0 35Q 213.5 80 427 50T 854 60L 854 0 Z">
-          </animate>
-        </path>
-      </g>
-         
-        
-      </svg>
-    
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="110" viewBox="0 0 1000 110" role="img" aria-label="Thanks for stopping by">
+  <title>Thanks for stopping by</title>
+  <style>
+    .s1 { animation: s1 10s ease-in-out infinite; }
+    .s2 { animation: s2 10s ease-in-out infinite; }
+    @keyframes s1 { 50% { stop-color: #10121b; } }
+    @keyframes s2 { 50% { stop-color: #181430; } }
+    .grid { animation: grid 8s linear infinite; }
+    @keyframes grid { to { transform: translate(40px, 40px); } }
+    .b1 { animation: b1 16s ease-in-out infinite; }
+    .b2 { animation: b2 18s ease-in-out infinite; }
+    .b3 { animation: b3 20s ease-in-out infinite; }
+    @keyframes b1 { 50% { transform: translate(120px, 40px); } }
+    @keyframes b2 { 50% { transform: translate(-120px, -30px); } }
+    @keyframes b3 { 50% { transform: translate(0, 60px); } }
+    .tw { animation: tw 4s ease-in-out infinite; }
+    @keyframes tw { 0%, 100% { opacity: .15; } 50% { opacity: .9; } }
+    .fl { animation: fl 6s ease-in-out infinite; transform-box: fill-box; }
+    @keyframes fl { 50% { transform: translateY(-10px); } }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop class="s1" offset="0" stop-color="#0b0d13"/>
+      <stop class="s2" offset="1" stop-color="#141626"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#bd93f9"/><stop offset="0.5" stop-color="#8be9fd"/><stop offset="1" stop-color="#bd93f9"/>
+    </linearGradient>
+    <pattern id="gridp" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#f8f8f2" stroke-opacity="0.045"/>
+    </pattern>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="45"/></filter>
+    <clipPath id="card"><rect width="1000" height="110" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="1000" height="110" fill="url(#bg)"/>
+    <g filter="url(#blur)" opacity="0.25">
+      <circle class="b1" cx="500" cy="11" r="80" fill="#bd93f9"/>
+      <circle class="b2" cx="150" cy="33" r="80" fill="#6272a4"/>
+      <circle class="b3" cx="850" cy="77" r="56" fill="#8be9fd" opacity="0.5"/>
+    </g>
+    <rect class="grid" x="-40" y="-40" width="1080" height="190" fill="url(#gridp)"/>
+    <g fill="#f8f8f2"><circle class="tw" cx="50" cy="22" r="1.6" style="animation-delay:-0s"/><circle class="tw" cx="950" cy="33" r="1.6" style="animation-delay:-1.2s"/><circle class="tw" cx="900" cy="94" r="1.6" style="animation-delay:-2.1s"/><circle class="tw" cx="80" cy="88" r="1.6" style="animation-delay:-0.6s"/><circle class="tw" cx="350" cy="99" r="1.6" style="animation-delay:-1.7s"/><circle class="tw" cx="700" cy="13" r="1.6" style="animation-delay:-2.6s"/></g>
+    <rect x="0.5" y="0.5" width="999" height="109" rx="20" fill="none" stroke="#bd93f9" stroke-opacity="0.18"/>
+<text x="500.0" y="65.0" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif" font-size="26" font-weight="700" fill="url(#shine)">Thanks for stopping by</text>
+  </g>
+</svg>

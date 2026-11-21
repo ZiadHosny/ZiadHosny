@@ -1,105 +1,53 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Ziad Hosny - Full-Stack Software Engineer">
   <title>Ziad Hosny - Full-Stack Software Engineer</title>
+  <style>
+    .s1 { animation: s1 10s ease-in-out infinite; }
+    .s2 { animation: s2 10s ease-in-out infinite; }
+    @keyframes s1 { 50% { stop-color: #10121b; } }
+    @keyframes s2 { 50% { stop-color: #181430; } }
+    .grid { animation: grid 8s linear infinite; }
+    @keyframes grid { to { transform: translate(40px, 40px); } }
+    .b1 { animation: b1 16s ease-in-out infinite; }
+    .b2 { animation: b2 18s ease-in-out infinite; }
+    .b3 { animation: b3 20s ease-in-out infinite; }
+    @keyframes b1 { 50% { transform: translate(120px, 40px); } }
+    @keyframes b2 { 50% { transform: translate(-120px, -30px); } }
+    @keyframes b3 { 50% { transform: translate(0, 60px); } }
+    .tw { animation: tw 4s ease-in-out infinite; }
+    @keyframes tw { 0%, 100% { opacity: .15; } 50% { opacity: .9; } }
+    .fl { animation: fl 6s ease-in-out infinite; transform-box: fill-box; }
+    @keyframes fl { 50% { transform: translateY(-10px); } }
+  </style>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0b0d13">
-        <animate attributeName="stop-color" values="#0b0d13;#10121b;#0b0d13" dur="10s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="1" stop-color="#141626">
-        <animate attributeName="stop-color" values="#141626;#181430;#141626" dur="10s" repeatCount="indefinite"/>
-      </stop>
+      <stop class="s1" offset="0" stop-color="#0b0d13"/>
+      <stop class="s2" offset="1" stop-color="#141626"/>
     </linearGradient>
-
-    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0" spreadMethod="reflect">
-      <stop offset="0" stop-color="#bd93f9"/>
-      <stop offset="0.5" stop-color="#8be9fd"/>
-      <stop offset="1" stop-color="#bd93f9"/>
-      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="8s" repeatCount="indefinite"/>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#bd93f9"/><stop offset="0.5" stop-color="#8be9fd"/><stop offset="1" stop-color="#bd93f9"/>
     </linearGradient>
-
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#f8f8f2" stroke-opacity="0.05"/>
-      <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="40 40" dur="8s" repeatCount="indefinite"/>
+    <pattern id="gridp" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#f8f8f2" stroke-opacity="0.045"/>
     </pattern>
-
-    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="45"/>
-    </filter>
-
-    <clipPath id="card">
-      <rect width="1200" height="320" rx="20"/>
-    </clipPath>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="45"/></filter>
+    <clipPath id="card"><rect width="1200" height="320" rx="20"/></clipPath>
   </defs>
-
   <g clip-path="url(#card)">
-    <!-- base gradient -->
     <rect width="1200" height="320" fill="url(#bg)"/>
-
-    <!-- drifting light blobs -->
-    <g filter="url(#blur)" opacity="0.28">
-      <circle cx="220" cy="90" r="120" fill="#bd93f9">
-        <animate attributeName="cx" values="220;380;220" dur="14s" repeatCount="indefinite"/>
-        <animate attributeName="cy" values="90;190;90" dur="11s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="1000" cy="230" r="140" fill="#6272a4">
-        <animate attributeName="cx" values="1000;840;1000" dur="16s" repeatCount="indefinite"/>
-        <animate attributeName="cy" values="230;120;230" dur="12s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="640" cy="40" r="100" fill="#8be9fd" opacity="0.6">
-        <animate attributeName="cx" values="640;520;760;640" dur="18s" repeatCount="indefinite"/>
-      </circle>
+    <g filter="url(#blur)" opacity="0.3">
+      <circle class="b1" cx="180" cy="96" r="144" fill="#bd93f9"/>
+      <circle class="b2" cx="1020" cy="224" r="144" fill="#6272a4"/>
+      <circle class="b3" cx="600" cy="32" r="101" fill="#8be9fd" opacity="0.5"/>
     </g>
+    <rect class="grid" x="-40" y="-40" width="1280" height="400" fill="url(#gridp)"/>
+    <g fill="#f8f8f2"><circle class="tw" cx="60" cy="64" r="1.6" style="animation-delay:-0s"/><circle class="tw" cx="1140" cy="96" r="1.6" style="animation-delay:-1.2s"/><circle class="tw" cx="1080" cy="272" r="1.6" style="animation-delay:-2.1s"/><circle class="tw" cx="96" cy="256" r="1.6" style="animation-delay:-0.6s"/><circle class="tw" cx="420" cy="288" r="1.6" style="animation-delay:-1.7s"/><circle class="tw" cx="840" cy="38" r="1.6" style="animation-delay:-2.6s"/></g>
+    <rect x="0.5" y="0.5" width="1199" height="319" rx="20" fill="none" stroke="#bd93f9" stroke-opacity="0.18"/>
 
-    <!-- moving grid -->
-    <rect width="1200" height="320" fill="url(#grid)"/>
-
-    <!-- floating code symbols -->
-    <g font-family="'Fira Code',Consolas,'Courier New',monospace" font-weight="700" fill="#f8f8f2">
-      <text x="90" y="250" font-size="44" opacity="0.08">&lt;/&gt;
-        <animateTransform attributeName="transform" type="translate" values="0 0;0 -14;0 0" dur="6s" repeatCount="indefinite"/>
-      </text>
-      <text x="1040" y="90" font-size="40" opacity="0.08">{ }
-        <animateTransform attributeName="transform" type="translate" values="0 0;0 12;0 0" dur="7s" repeatCount="indefinite"/>
-      </text>
-      <text x="980" y="285" font-size="28" opacity="0.07">=&gt;
-        <animateTransform attributeName="transform" type="translate" values="0 0;10 0;0 0" dur="8s" repeatCount="indefinite"/>
-      </text>
-      <text x="150" y="80" font-size="28" opacity="0.07">( )
-        <animateTransform attributeName="transform" type="translate" values="0 0;-10 0;0 0" dur="9s" repeatCount="indefinite"/>
-      </text>
-    </g>
-
-    <!-- twinkling particles -->
-    <g fill="#f8f8f2">
-      <circle cx="70" cy="40" r="2"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="3s" repeatCount="indefinite"/></circle>
-      <circle cx="300" cy="270" r="1.5"><animate attributeName="opacity" values="0.8;0.1;0.8" dur="4s" repeatCount="indefinite"/></circle>
-      <circle cx="420" cy="60" r="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="5s" repeatCount="indefinite"/></circle>
-      <circle cx="520" cy="290" r="1.5"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="3.5s" repeatCount="indefinite"/></circle>
-      <circle cx="760" cy="280" r="2"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="4.5s" repeatCount="indefinite"/></circle>
-      <circle cx="840" cy="50" r="1.5"><animate attributeName="opacity" values="0.7;0.1;0.7" dur="3s" repeatCount="indefinite"/></circle>
-      <circle cx="930" cy="160" r="2"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="5.5s" repeatCount="indefinite"/></circle>
-      <circle cx="1140" cy="200" r="1.5"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="4s" repeatCount="indefinite"/></circle>
-      <circle cx="1120" cy="30" r="2"><animate attributeName="opacity" values="0.1;1;0.1" dur="6s" repeatCount="indefinite"/></circle>
-      <circle cx="250" cy="170" r="1.5"><animate attributeName="opacity" values="0.6;0.1;0.6" dur="5s" repeatCount="indefinite"/></circle>
-      <circle cx="40" cy="180" r="1.5"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="3.8s" repeatCount="indefinite"/></circle>
-      <circle cx="690" cy="300" r="1.5"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="4.2s" repeatCount="indefinite"/></circle>
-    </g>
-
-    <!-- name -->
+    <g font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-weight="700" fill="#f8f8f2" opacity="0.08"><text class="fl" x="150" y="80" font-size="28" style="animation-delay:-0s">( )</text><text class="fl" x="1040" y="90" font-size="40" style="animation-delay:-2s">{ }</text><text class="fl" x="90" y="250" font-size="44" style="animation-delay:-1s">&lt;/&gt;</text><text class="fl" x="980" y="285" font-size="28" style="animation-delay:-3s">=&gt;</text></g>
     <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif" text-anchor="middle">
-      <text x="600" y="160" font-size="76" font-weight="800" fill="url(#shine)">Ziad Hosny
-        <animate attributeName="opacity" values="0;1" dur="1.2s" fill="freeze"/>
-        <animateTransform attributeName="transform" type="translate" values="0 18;0 0" dur="1.2s" fill="freeze"/>
-      </text>
-      <text x="600" y="212" font-size="26" font-weight="500" fill="#f8f8f2" letter-spacing="2">Full-Stack Software Engineer
-        <animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.35;1" dur="1.8s" fill="freeze"/>
-      </text>
+      <text x="600.0" y="160" font-size="76" font-weight="800" fill="url(#shine)">Ziad Hosny</text>
+      <text x="600.0" y="212" font-size="26" font-weight="500" fill="#f8f8f2" fill-opacity="0.9" letter-spacing="2">Full-Stack Software Engineer</text>
     </g>
-
-    <!-- accent line -->
-    <rect x="520" y="234" width="160" height="4" rx="2" fill="url(#shine)">
-      <animate attributeName="width" values="0;0;160" keyTimes="0;0.5;1" dur="2s" fill="freeze"/>
-      <animate attributeName="x" values="600;600;520" keyTimes="0;0.5;1" dur="2s" fill="freeze"/>
-    </rect>
+    <rect x="520.0" y="234" width="160" height="4" rx="2" fill="url(#shine)"/>
   </g>
 </svg>

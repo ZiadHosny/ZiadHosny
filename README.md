@@ -7,10 +7,11 @@
 </p>
 
 <p align="center">
-  <a href="https://ziadhosny.com"><img src="assets/badges/website.svg" alt="Website" /></a>
-  <a href="https://www.youtube.com/@ziadhosnydev"><img src="assets/badges/youtube.svg" alt="YouTube" /></a>
-  <a href="https://www.linkedin.com/in/ziadhosny"><img src="assets/badges/linkedin.svg" alt="LinkedIn" /></a>
-  <a href="mailto:ziadhosny007@gmail.com"><img src="assets/badges/email.svg" alt="Email" /></a></p>
+  <a href="https://ziadhosny.com"><img src="assets/buttons/website.svg" width="200" alt="Website" /></a>
+  <a href="https://www.youtube.com/@ziadhosnydev"><img src="assets/buttons/youtube.svg" width="200" alt="YouTube" /></a>
+  <a href="https://www.linkedin.com/in/ziadhosny"><img src="assets/buttons/linkedin.svg" width="200" alt="LinkedIn" /></a>
+  <a href="mailto:ziadhosny007@gmail.com"><img src="assets/buttons/email.svg" width="200" alt="Email" /></a>
+</p>
 
 <p align="center">
   I'm Ziad Hosny, a Full-Stack Software Engineer based in Egypt with 5+ years of experience.<br />
@@ -21,7 +22,8 @@
 <p align="center"><b>Watch</b></p>
 
 <p align="center">
-  <a href="https://www.youtube.com/playlist?list=PLXff1uLxiPdA"><img src="assets/badges/system-design-in-arabic.svg" height="36" alt="System Design in Arabic playlist" /></a>
+  <a href="https://www.youtube.com/playlist?list=PLXff1uLxiPdA"><img src="assets/buttons/system-design-in-arabic.svg" alt="System Design in Arabic playlist" /></a><br />
+  <sub>System Design series in Arabic</sub>
 </p>
 
 <p align="center"><b>Featured Projects</b></p>
@@ -35,9 +37,5 @@
 </p>
 
 <p align="center">
-  <sub>Thanks for stopping by 👋</sub>
+  <img src="assets/footer.svg" width="100%" alt="Thanks for stopping by" />
 </p>
-
-<div align="center">
-  <img src="assets/footer.svg" width="100%" alt="Footer wave" />
-</div>
