@@ -1,49 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Ziad Hosny - Full-Stack Software Engineer">
+  <title>Ziad Hosny - Full-Stack Software Engineer</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e1f29">
+        <animate attributeName="stop-color" values="#1e1f29;#282a36;#1e1f29" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#44475a">
+        <animate attributeName="stop-color" values="#44475a;#3a3560;#44475a" dur="10s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
 
-      <svg
-        width="854"
-        height="200"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-        style="z-index:1;position:relative"
-        viewBox="0 0 854 200"
-      >
-        <style>
-      .text {   font-size: 56px;   font-weight: 700;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } .desc {   font-size: 20px;   font-weight: 500;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } 
-      .text, .desc {   animation: fadeIn 1.2s ease-in-out forwards;  } @keyframes fadeIn {   from {     opacity: 0;   }   to {     opacity: 1;   }  } 
-    </style>
-        <defs>
-              <linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
-                <stop offset="0%" stop-color="#282a36"/><stop offset="50%" stop-color="#44475a"/><stop offset="100%" stop-color="#6272a4"/>
-              </linearGradient>
-            </defs>
-        
-      <g transform="translate(427, 100) scale(1, 1) translate(-427, -100)">
-        <path d="" fill="url(#linear)" opacity="0.4" >
-          <animate
-              attributeName="d"
-              dur="20s"
-              repeatCount="indefinite"
-              keyTimes="0;0.333;0.667;1"
-              calcmod="spline"
-              keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
-              begin="0s"
-              values="M0 0L 0 120Q 213.5 160 427 130T 854 155L 854 0 Z;M0 0L 0 145Q 213.5 160 427 140T 854 130L 854 0 Z;M0 0L 0 165Q 213.5 135 427 165T 854 130L 854 0 Z;M0 0L 0 120Q 213.5 160 427 130T 854 155L 854 0 Z">
-          </animate>
-        </path>
-        <path d="" fill="url(#linear)" opacity="0.4" >
-          <animate
-            attributeName="d"
-            dur="20s"
-            repeatCount="indefinite"
-            keyTimes="0;0.333;0.667;1"
-            calcmod="spline"
-            keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
-            begin="-10s"
-            values="M0 0L 0 135Q 213.5 180 427 150T 854 160L 854 0 Z;M0 0L 0 150Q 213.5 120 427 120T 854 140L 854 0 Z;M0 0L 0 145Q 213.5 125 427 150T 854 165L 854 0 Z;M0 0L 0 135Q 213.5 180 427 150T 854 160L 854 0 Z">
-          </animate>
-        </path>
-      </g>
-         <text text-anchor="middle" dominant-baseline="middle" x="50%" y="38%" class="text" style="fill:#f8f8f2;" stroke="#none" stroke-width="1" >Ziad Hosny</text>
-        <text text-anchor="middle" dominant-baseline="middle" x="50%" y="60%" class="desc" style="fill:#f8f8f2;">Full-Stack Software Engineer</text>
-      </svg>
-    
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0" spreadMethod="reflect">
+      <stop offset="0" stop-color="#bd93f9"/>
+      <stop offset="0.5" stop-color="#ff79c6"/>
+      <stop offset="1" stop-color="#8be9fd"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#f8f8f2" stroke-opacity="0.05"/>
+      <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="40 40" dur="8s" repeatCount="indefinite"/>
+    </pattern>
+
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="45"/>
+    </filter>
+
+    <clipPath id="card">
+      <rect width="1200" height="320" rx="20"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <!-- base gradient -->
+    <rect width="1200" height="320" fill="url(#bg)"/>
+
+    <!-- drifting light blobs -->
+    <g filter="url(#blur)" opacity="0.55">
+      <circle cx="220" cy="90" r="120" fill="#bd93f9">
+        <animate attributeName="cx" values="220;380;220" dur="14s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="90;190;90" dur="11s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1000" cy="230" r="140" fill="#ff79c6">
+        <animate attributeName="cx" values="1000;840;1000" dur="16s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="230;120;230" dur="12s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="640" cy="40" r="100" fill="#8be9fd" opacity="0.6">
+        <animate attributeName="cx" values="640;520;760;640" dur="18s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- moving grid -->
+    <rect width="1200" height="320" fill="url(#grid)"/>
+
+    <!-- floating code symbols -->
+    <g font-family="'Fira Code',Consolas,'Courier New',monospace" font-weight="700" fill="#f8f8f2">
+      <text x="90" y="250" font-size="44" opacity="0.08">&lt;/&gt;
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -14;0 0" dur="6s" repeatCount="indefinite"/>
+      </text>
+      <text x="1040" y="90" font-size="40" opacity="0.08">{ }
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 12;0 0" dur="7s" repeatCount="indefinite"/>
+      </text>
+      <text x="980" y="285" font-size="28" opacity="0.07">=&gt;
+        <animateTransform attributeName="transform" type="translate" values="0 0;10 0;0 0" dur="8s" repeatCount="indefinite"/>
+      </text>
+      <text x="150" y="80" font-size="28" opacity="0.07">( )
+        <animateTransform attributeName="transform" type="translate" values="0 0;-10 0;0 0" dur="9s" repeatCount="indefinite"/>
+      </text>
+    </g>
+
+    <!-- twinkling particles -->
+    <g fill="#f8f8f2">
+      <circle cx="70" cy="40" r="2"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="3s" repeatCount="indefinite"/></circle>
+      <circle cx="300" cy="270" r="1.5"><animate attributeName="opacity" values="0.8;0.1;0.8" dur="4s" repeatCount="indefinite"/></circle>
+      <circle cx="420" cy="60" r="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="5s" repeatCount="indefinite"/></circle>
+      <circle cx="520" cy="290" r="1.5"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="3.5s" repeatCount="indefinite"/></circle>
+      <circle cx="760" cy="280" r="2"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="4.5s" repeatCount="indefinite"/></circle>
+      <circle cx="840" cy="50" r="1.5"><animate attributeName="opacity" values="0.7;0.1;0.7" dur="3s" repeatCount="indefinite"/></circle>
+      <circle cx="930" cy="160" r="2"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="5.5s" repeatCount="indefinite"/></circle>
+      <circle cx="1140" cy="200" r="1.5"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="4s" repeatCount="indefinite"/></circle>
+      <circle cx="1120" cy="30" r="2"><animate attributeName="opacity" values="0.1;1;0.1" dur="6s" repeatCount="indefinite"/></circle>
+      <circle cx="250" cy="170" r="1.5"><animate attributeName="opacity" values="0.6;0.1;0.6" dur="5s" repeatCount="indefinite"/></circle>
+      <circle cx="40" cy="180" r="1.5"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="3.8s" repeatCount="indefinite"/></circle>
+      <circle cx="690" cy="300" r="1.5"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="4.2s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- name -->
+    <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif" text-anchor="middle">
+      <text x="600" y="160" font-size="76" font-weight="800" fill="url(#shine)">Ziad Hosny
+        <animate attributeName="opacity" values="0;1" dur="1.2s" fill="freeze"/>
+        <animateTransform attributeName="transform" type="translate" values="0 18;0 0" dur="1.2s" fill="freeze"/>
+      </text>
+      <text x="600" y="212" font-size="26" font-weight="500" fill="#f8f8f2" letter-spacing="2">Full-Stack Software Engineer
+        <animate attributeName="opacity" values="0;0;0.9" keyTimes="0;0.35;1" dur="1.8s" fill="freeze"/>
+      </text>
+    </g>
+
+    <!-- accent line -->
+    <rect x="520" y="234" width="160" height="4" rx="2" fill="url(#shine)">
+      <animate attributeName="width" values="0;0;160" keyTimes="0;0.5;1" dur="2s" fill="freeze"/>
+      <animate attributeName="x" values="600;600;520" keyTimes="0;0.5;1" dur="2s" fill="freeze"/>
+    </rect>
+  </g>
+</svg>

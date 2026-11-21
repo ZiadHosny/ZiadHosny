@@ -31,60 +31,8 @@
 - **[Pro Shop](https://pro-shop-z.vercel.app/)**: E-commerce platform. MERN, Redux
 - **[Advanced Audio Player](https://advancedaudioplayer.netlify.app/)**: Shuffle, repeat, and loop a selected part N times. MERN
 
-<h3 align="center">Tech Stack</h3>
-
 <p align="center">
-  <b>Backend</b><br />
-  <img src="assets/icons/javascript-original.svg" height="40" alt="JavaScript" />&nbsp;
-  <img src="assets/icons/typescript-original.svg" height="40" alt="TypeScript" />&nbsp;
-  <img src="assets/icons/python-original.svg" height="40" alt="Python" />&nbsp;
-  <img src="assets/icons/php-original.svg" height="40" alt="PHP" />&nbsp;
-  <img src="assets/icons/nodejs-original.svg" height="40" alt="Node.js" />&nbsp;
-  <img src="assets/icons/nestjs-original.svg" height="40" alt="NestJS" />&nbsp;
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icons/express-white.svg" /><img src="assets/icons/express-original.svg" height="40" alt="Express" /></picture>&nbsp;
-  <img src="assets/icons/strapi-4945FF.svg" height="40" alt="Strapi" />&nbsp;
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icons/prisma-white.svg" /><img src="assets/icons/prisma-original.svg" height="40" alt="Prisma" /></picture>&nbsp;
-  <img src="assets/icons/sequelize-original.svg" height="40" alt="Sequelize" />&nbsp;
-  <img src="assets/icons/mongoose-original.svg" height="40" alt="Mongoose" />&nbsp;
-  <img src="assets/icons/jsonwebtokens-D63AFF.svg" height="40" alt="JWT" />
-</p>
-
-<p align="center">
-  <b>Frontend</b><br />
-  <img src="assets/icons/react-original.svg" height="40" alt="React" />&nbsp;
-  <img src="assets/icons/nextjs-original.svg" height="40" alt="Next.js" />&nbsp;
-  <img src="assets/icons/angular-original.svg" height="40" alt="Angular" />&nbsp;
-  <img src="assets/icons/redux-original.svg" height="40" alt="Redux" />&nbsp;
-  <img src="assets/icons/materialui-original.svg" height="40" alt="Material UI" />&nbsp;
-  <img src="assets/icons/tailwindcss-original.svg" height="40" alt="Tailwind CSS" />
-</p>
-
-<p align="center">
-  <b>Databases</b><br />
-  <img src="assets/icons/postgresql-original.svg" height="40" alt="PostgreSQL" />&nbsp;
-  <img src="assets/icons/mongodb-original.svg" height="40" alt="MongoDB" />&nbsp;
-  <img src="assets/icons/microsoftsqlserver-original.svg" height="40" alt="Microsoft SQL Server" />&nbsp;
-  <img src="assets/icons/firebase-original.svg" height="40" alt="Firebase" />
-</p>
-
-<p align="center">
-  <b>Tools</b><br />
-  <img src="assets/icons/docker-original.svg" height="40" alt="Docker" />&nbsp;
-  <img src="assets/icons/git-original.svg" height="40" alt="Git" />&nbsp;
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icons/github-white.svg" /><img src="assets/icons/github-original.svg" height="40" alt="GitHub" /></picture>&nbsp;
-  <img src="assets/icons/githubactions-original.svg" height="40" alt="GitHub Actions" />&nbsp;
-  <img src="assets/icons/gitlab-original.svg" height="40" alt="GitLab" />&nbsp;
-  <img src="assets/icons/postman-original.svg" height="40" alt="Postman" />&nbsp;
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icons/sentry-white.svg" /><img src="assets/icons/sentry-original.svg" height="40" alt="Sentry" /></picture>&nbsp;
-  <img src="assets/icons/npm-original.svg" height="40" alt="npm" />&nbsp;
-  <img src="assets/icons/figma-original.svg" height="40" alt="Figma" />
-</p>
-
-<p align="center">
-  <b>AI</b><br />
-  <img src="assets/icons/claude-original.svg" height="40" alt="Claude / Claude Code" />&nbsp;
-  <img src="assets/badges/chatgpt.svg" height="40" alt="ChatGPT" />&nbsp;
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/icons/githubcopilot-white.svg" /><img src="assets/icons/githubcopilot.svg" height="40" alt="GitHub Copilot" /></picture>
+  <img src="assets/tech-stack.svg" width="100%" alt="Tech Stack - Backend: JavaScript, TypeScript, Python, PHP, Node.js, NestJS, Express, Strapi, Prisma, Sequelize, Mongoose, JWT. Frontend: React, Next.js, Angular, Redux, Material UI, Tailwind CSS. Databases: PostgreSQL, MongoDB, Microsoft SQL Server, Firebase. Tools: Docker, Git, GitHub, GitHub Actions, GitLab, Postman, Sentry, npm, Figma. AI: Claude, ChatGPT, GitHub Copilot" />
 </p>
 
 <p align="center">
