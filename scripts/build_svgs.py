@@ -275,6 +275,22 @@ def tech_stack():
     write("tech-stack.svg", card(W, H, "Tech Stack", body, seed=0, glow=0.22, extra_css=css))
 
 
+SECTION_TITLES = [("watch", "Watch"), ("featured-projects", "Featured Projects")]
+
+
+def section_title(name, text):
+    """Large gradient heading on a transparent background (no GitHub anchor icon)."""
+    fs = 32
+    w, h = int(text_width(text, fs) * 1.15 + 40), 56
+    svg = (f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="{escape(text)}">'
+           f'<title>{escape(text)}</title>'
+           f'<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="{PURPLE}"/>'
+           f'<stop offset="0.5" stop-color="{CYAN}"/><stop offset="1" stop-color="{PURPLE}"/></linearGradient></defs>'
+           f'<text x="{w / 2}" y="{h / 2 + 11}" text-anchor="middle" font-family="{SANS}" font-size="{fs}" '
+           f'font-weight="800" fill="url(#g)">{escape(text)}</text></svg>\n')
+    write(f"titles/{name}.svg", svg)
+
+
 def footer():
     w, h = 1000, 110
     body = (f'<text x="{w / 2}" y="{h / 2 + 10}" text-anchor="middle" font-family="{SANS}" font-size="26" '
@@ -287,5 +303,7 @@ if __name__ == "__main__":
     typing()
     for b in BUTTONS:
         button(*b)
+    for t in SECTION_TITLES:
+        section_title(*t)
     tech_stack()
     footer()

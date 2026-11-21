@@ -19,14 +19,14 @@
   I also make Arabic content about software engineering.
 </p>
 
-<p align="center"><b>Watch</b></p>
-
 <p align="center">
-  <a href="https://www.youtube.com/playlist?list=PLXff1uLxiPdA"><img src="assets/buttons/system-design-in-arabic.svg" alt="System Design in Arabic playlist" /></a><br />
-  <sub>System Design series in Arabic</sub>
+  <img src="assets/titles/watch.svg" alt="Watch" /><br />
+  <a href="https://www.youtube.com/playlist?list=PLXff1uLxiPdA"><img src="assets/buttons/system-design-in-arabic.svg" alt="System Design in Arabic playlist" /></a>
 </p>
 
-<p align="center"><b>Featured Projects</b></p>
+<p align="center">
+  <img src="assets/titles/featured-projects.svg" alt="Featured Projects" />
+</p>
 
 - **[Quran Kareem](https://quran-app-z.vercel.app/)**: Quran recitations by famous reciters on web, mobile, and Android TV. MERN, Redux, MUI
 - **[Pro Shop](https://pro-shop-z.vercel.app/)**: E-commerce platform. MERN, Redux
