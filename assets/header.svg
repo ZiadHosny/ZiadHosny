@@ -2,11 +2,11 @@
   <title>Ziad Hosny - Full-Stack Software Engineer</title>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#1e1f29">
-        <animate attributeName="stop-color" values="#1e1f29;#282a36;#1e1f29" dur="10s" repeatCount="indefinite"/>
+      <stop offset="0" stop-color="#0b0d13">
+        <animate attributeName="stop-color" values="#0b0d13;#10121b;#0b0d13" dur="10s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="1" stop-color="#44475a">
-        <animate attributeName="stop-color" values="#44475a;#3a3560;#44475a" dur="10s" repeatCount="indefinite"/>
+      <stop offset="1" stop-color="#141626">
+        <animate attributeName="stop-color" values="#141626;#181430;#141626" dur="10s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
 
@@ -36,7 +36,7 @@
     <rect width="1200" height="320" fill="url(#bg)"/>
 
     <!-- drifting light blobs -->
-    <g filter="url(#blur)" opacity="0.55">
+    <g filter="url(#blur)" opacity="0.28">
       <circle cx="220" cy="90" r="120" fill="#bd93f9">
         <animate attributeName="cx" values="220;380;220" dur="14s" repeatCount="indefinite"/>
         <animate attributeName="cy" values="90;190;90" dur="11s" repeatCount="indefinite"/>
